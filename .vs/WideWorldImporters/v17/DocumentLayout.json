@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{23C2C211-2679-46B8-9E02-EB76194F208E}|WideWorldImporters\\WideWorldImporters.dwproj|solutionrelative:WideWorldImporters\\Wide World Importers DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23C2C211-2679-46B8-9E02-EB76194F208E}|WideWorldImporters\\WideWorldImporters.dwproj|C:\\Users\\bolfa\\source\\repos\\WideWorldImporters\\WideWorldImporters\\Wide World Importers DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{23C2C211-2679-46B8-9E02-EB76194F208E}|WideWorldImporters\\WideWorldImporters.dwproj|solutionrelative:WideWorldImporters\\Wide World Importers DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23C2C211-2679-46B8-9E02-EB76194F208E}|WideWorldImporters\\WideWorldImporters.dwproj|C:\\Users\\bolfa\\source\\repos\\WideWorldImporters\\WideWorldImporters\\Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{23C2C211-2679-46B8-9E02-EB76194F208E}|WideWorldImporters\\WideWorldImporters.dwproj|solutionrelative:WideWorldImporters\\Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     }
@@ -39,17 +35,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Wide World Importers DW.dsv [Design]",
-              "DocumentMoniker": "C:\\Users\\bolfa\\source\\repos\\WideWorldImporters\\WideWorldImporters\\Wide World Importers DW.dsv",
-              "RelativeDocumentMoniker": "WideWorldImporters\\Wide World Importers DW.dsv",
-              "ToolTip": "C:\\Users\\bolfa\\source\\repos\\WideWorldImporters\\WideWorldImporters\\Wide World Importers DW.dsv [Design]",
-              "RelativeToolTip": "WideWorldImporters\\Wide World Importers DW.dsv [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-24T09:53:55.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Date.dim [Design]",
               "DocumentMoniker": "C:\\Users\\bolfa\\source\\repos\\WideWorldImporters\\WideWorldImporters\\Date.dim",
               "RelativeDocumentMoniker": "WideWorldImporters\\Date.dim",
