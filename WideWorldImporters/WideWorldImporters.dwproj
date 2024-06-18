@@ -6,48 +6,12 @@
     <Name>WideWorldImporters.database</Name>
     <FullPath>WideWorldImporters.database</FullPath>
   </Database>
-  <Cubes>
-    <ProjectItem>
-      <Name>Wide World Importers DW.cube</Name>
-      <FullPath>Wide World Importers DW.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Wide World Importers DW.partitions</Name>
-          <FullPath>Wide World Importers DW.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-  </Cubes>
-  <Dimensions>
-    <ProjectItem>
-      <Name>Date.dim</Name>
-      <FullPath>Date.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Customer.dim</Name>
-      <FullPath>Customer.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>City.dim</Name>
-      <FullPath>City.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Sale.dim</Name>
-      <FullPath>Sale.dim</FullPath>
-    </ProjectItem>
-  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>Wide World Importers DW.ds</Name>
       <FullPath>Wide World Importers DW.ds</FullPath>
     </ProjectItem>
   </DataSources>
-  <DataSourceViews>
-    <ProjectItem>
-      <Name>Wide World Importers DW.dsv</Name>
-      <FullPath>Wide World Importers DW.dsv</FullPath>
-    </ProjectItem>
-  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
