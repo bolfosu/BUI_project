@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-306" scrolltop="-3224" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="4868" y="11448" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Date" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4216" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00007810000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Cube_Date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-306</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-3224</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -38,6 +64,60 @@
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="230">
+            <Shape Id="Date" Expanded="false">
+              <Attributes>
+                <Attribute Id="Date" />
+                <Attribute Id="Calendar Month Number" />
+                <Attribute Id="Calendar Year" />
+                <Attribute Id="Day" />
+                <Attribute Id="Day Number" />
+                <Attribute Id="Fiscal Month Number" />
+                <Attribute Id="Fiscal Year" />
+                <Attribute Id="Month" />
+                <Attribute Id="Short Month" />
+                <Attribute Id="Today" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="ISO Week Number" Expanded="false">
+              <Attributes>
+                <Attribute Id="ISO Week Number" />
+              </Attributes>
+              <Position x="312" y="20" />
+            </Shape>
+            <Shape Id="Fiscal Month Label" Expanded="false">
+              <Attributes>
+                <Attribute Id="Fiscal Month Label" />
+              </Attributes>
+              <Position x="312" y="71" />
+            </Shape>
+            <Shape Id="Fiscal Year Label" Expanded="false">
+              <Attributes>
+                <Attribute Id="Fiscal Year Label" />
+              </Attributes>
+              <Position x="605" y="71" />
+            </Shape>
+            <Shape Id="Calendar Month Label" Expanded="false">
+              <Attributes>
+                <Attribute Id="Calendar Month Label" />
+              </Attributes>
+              <Position x="312" y="122" />
+            </Shape>
+            <Shape Id="Calendar Year Label" Expanded="false">
+              <Attributes>
+                <Attribute Id="Calendar Year Label" />
+              </Attributes>
+              <Position x="605" y="122" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
     </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
@@ -99,10 +179,6 @@
           <AttributeID>Calendar Year</AttributeID>
           <Name>Calendar Year</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="132e4d80-8ffe-4110-a1d8-f27f02a55906">
-          <AttributeID>Calendar Year Label</AttributeID>
-          <Name>Calendar Year Label</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="f742cc96-6d4e-48d1-89a7-9bd880d98c17">
           <AttributeID>Fiscal Month Number</AttributeID>
           <Name>Fiscal Month Number</Name>
@@ -114,10 +190,6 @@
         <AttributeRelationship dwd:design-time-name="c63f7a68-2a97-49f1-81c6-1c3224d879d8">
           <AttributeID>Fiscal Year</AttributeID>
           <Name>Fiscal Year</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ad5ad59b-11a6-4b64-9114-7b12dca6536e">
-          <AttributeID>Fiscal Year Label</AttributeID>
-          <Name>Fiscal Year Label</Name>
         </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="76bf7d01-3021-4203-af56-512dbf7e05f7">
           <AttributeID>ISO Week Number</AttributeID>
@@ -234,6 +306,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bc31ba1a-fd4a-4d12-9233-09f7e96b6717">
+          <AttributeID>Calendar Year Label</AttributeID>
+          <Name>Calendar Year Label</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -304,6 +382,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="363dc83d-236c-4f11-b479-a376927148c3">
+          <AttributeID>Fiscal Year Label</AttributeID>
+          <Name>Fiscal Year Label</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -377,5 +461,65 @@
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="406caf88-ee86-4d0c-aa4c-7935b6e84672">
+      <ID>Hierarchy 1</ID>
+      <Name>Calendar</Name>
+      <Levels>
+        <Level dwd:design-time-name="c80dc51d-e142-4f11-8cb8-f6b2eb7fc2cb">
+          <ID>Calendar Year Label</ID>
+          <Name>Calendar Year</Name>
+          <SourceAttributeID>Calendar Year Label</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="68b45ba7-ec68-4a9d-82cf-1a350663f2d4">
+          <ID>Calendar Month Label</ID>
+          <Name>Calendar Month</Name>
+          <SourceAttributeID>Calendar Month Label</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d143ed30-353d-43a4-9ea6-5c08ebf094d5">
+          <ID>Date</ID>
+          <Name>Date</Name>
+          <SourceAttributeID>Date</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="57fa5678-965c-4f08-8168-b03384f8b402">
+      <ID>Hierarchy</ID>
+      <Name>Fiscal</Name>
+      <Levels>
+        <Level dwd:design-time-name="f7e350ad-db60-49a8-a2a6-872a0964aaf5">
+          <ID>Fiscal Year Label</ID>
+          <Name>Fiscal Year</Name>
+          <SourceAttributeID>Fiscal Year Label</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c9462094-2a8b-4f19-b8b5-22a0eaffee90">
+          <ID>Fiscal Month Label</ID>
+          <Name>Fiscal Month</Name>
+          <SourceAttributeID>Fiscal Month Label</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="698041d7-cf68-4135-a253-a70a5b678a95">
+          <ID>Date</ID>
+          <Name>Date</Name>
+          <SourceAttributeID>Date</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="9c366d82-5499-48c2-bb0c-e83bf6cb8861">
+      <ID>Hierarchy 2</ID>
+      <Name>ISO Week</Name>
+      <Levels>
+        <Level dwd:design-time-name="f4d51b2b-eb17-4254-b2e0-3c8089229b60">
+          <ID>ISO Week Number</ID>
+          <Name>ISO Week Number</Name>
+          <SourceAttributeID>ISO Week Number</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="3619e775-727f-437a-8bf8-7d894102baf3">
+          <ID>Date</ID>
+          <Name>Date</Name>
+          <SourceAttributeID>Date</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

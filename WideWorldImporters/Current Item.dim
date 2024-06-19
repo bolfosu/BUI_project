@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-112" scrolltop="-834" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="4868" y="6668" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-112" scrolltop="-834" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="4868" y="11448" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Item-Current" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4604" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Item-Current" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4604" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000fc11000088130000" />
             </control>
@@ -65,6 +65,99 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="253">
+            <Shape Id="Typical Weight Per Unit" Expanded="false">
+              <Attributes>
+                <Attribute Id="Typical Weight Per Unit" />
+              </Attributes>
+              <Position x="20" y="632" />
+            </Shape>
+            <Shape Id="Recommended Retail Price" Expanded="false">
+              <Attributes>
+                <Attribute Id="Recommended Retail Price" />
+              </Attributes>
+              <Position x="20" y="581" />
+            </Shape>
+            <Shape Id="Unit Price" Expanded="false">
+              <Attributes>
+                <Attribute Id="Unit Price" />
+              </Attributes>
+              <Position x="20" y="530" />
+            </Shape>
+            <Shape Id="Tax Rate" Expanded="false">
+              <Attributes>
+                <Attribute Id="Tax Rate" />
+              </Attributes>
+              <Position x="20" y="479" />
+            </Shape>
+            <Shape Id="Barcode" Expanded="false">
+              <Attributes>
+                <Attribute Id="Barcode" />
+              </Attributes>
+              <Position x="20" y="428" />
+            </Shape>
+            <Shape Id="Is Chiller Stock" Expanded="false">
+              <Attributes>
+                <Attribute Id="Is Chiller Stock" />
+              </Attributes>
+              <Position x="20" y="377" />
+            </Shape>
+            <Shape Id="Quantity Per Outer" Expanded="false">
+              <Attributes>
+                <Attribute Id="Quantity Per Outer" />
+              </Attributes>
+              <Position x="20" y="326" />
+            </Shape>
+            <Shape Id="Lead Time Days" Expanded="false">
+              <Attributes>
+                <Attribute Id="Lead Time Days" />
+              </Attributes>
+              <Position x="20" y="275" />
+            </Shape>
+            <Shape Id="Size" Expanded="false">
+              <Attributes>
+                <Attribute Id="Size" />
+              </Attributes>
+              <Position x="20" y="224" />
+            </Shape>
+            <Shape Id="Buying Package" Expanded="false">
+              <Attributes>
+                <Attribute Id="Buying Package" />
+              </Attributes>
+              <Position x="20" y="173" />
+            </Shape>
+            <Shape Id="Selling Package" Expanded="false">
+              <Attributes>
+                <Attribute Id="Selling Package" />
+              </Attributes>
+              <Position x="20" y="122" />
+            </Shape>
+            <Shape Id="Color" Expanded="false">
+              <Attributes>
+                <Attribute Id="Color" />
+              </Attributes>
+              <Position x="20" y="71" />
+            </Shape>
+            <Shape Id="Stock Item" Expanded="false">
+              <Attributes>
+                <Attribute Id="Stock Item" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Brand" Expanded="false">
+              <Attributes>
+                <Attribute Id="Brand" />
+              </Attributes>
+              <Position x="341" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
@@ -98,6 +191,12 @@
           <ColumnID>Stock_x0020_Item</ColumnID>
         </Source>
       </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ecac2061-73a0-4419-9d19-cfbbe45a4251">
+          <AttributeID>Brand</AttributeID>
+          <Name>Brand</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -317,5 +416,23 @@
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="0a8be655-d421-469b-a514-79072051a4be">
+      <ID>Hierarchy</ID>
+      <Name>Current Item Brand</Name>
+      <Levels>
+        <Level dwd:design-time-name="f63e3245-9894-43d7-abcf-5a2e908f7adb">
+          <ID>Brand</ID>
+          <Name>Brand</Name>
+          <SourceAttributeID>Brand</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="676ec25e-f8e7-4433-b094-aedd8cb76ea2">
+          <ID>Stock Item</ID>
+          <Name>Stock Item</Name>
+          <SourceAttributeID>Stock Item</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
