@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8acfaf2c-4834-45d7-88e3-8bc38c7dd5c3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7de3d5a4-7274-44c1-b13a-13d36a0653cd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Salesperson</ID>
   <Name>Salesperson</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-703" scrolltop="-4410" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="4851" y="11412" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-712" scrolltop="-2038" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="4868" y="6668" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
             </font>
@@ -47,11 +47,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-703</Value>
+      <Value>-712</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-4410</Value>
+      <Value>-2038</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -68,32 +68,32 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="93e85f93-ef3c-4868-8cb7-0029cee473cf">
-    <DataSourceViewID>ProjectView</DataSourceViewID>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="12114264-72f6-404c-8f9b-dc0e760eb085">
+    <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="6b8f7a47-c2af-4c1b-9746-262345ebe17c">
+  <ErrorConfiguration dwd:design-time-name="3f4c6c29-fa0b-4090-834f-2d016b1880df">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="0a5f93d7-ddb3-46ab-99fa-006e3841ce9c">
+    <Attribute dwd:design-time-name="32b64f65-160d-4744-bfc0-4c8b1a63dec8">
       <ID>Employee</ID>
       <Name>Employee</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4224b039-d37a-4839-97d8-48a0cb4a88b2">
+        <KeyColumn dwd:design-time-name="20fc0227-634d-413c-9f41-55c8b1a01b89">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0fbac13a-fa9c-42e9-81a8-caf8a138f632">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c7fa077b-09b6-4e3e-8009-e5c8edee0829">
             <TableID>Cube_Salesperson-Current</TableID>
             <ColumnID>WWI_x0020_Employee_x0020_ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="134ee945-74a6-445f-b05c-1039d171d969">
+      <NameColumn dwd:design-time-name="a02b031f-71c5-4a46-8cda-4e0b99a32d67">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="6e8ae0a4-e097-4ffc-8387-524f4477e37e">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="90e5798d-ff1f-4c7c-991e-e932a15bc336">
           <TableID>Cube_Salesperson-Current</TableID>
           <ColumnID>Employee</ColumnID>
         </Source>
@@ -102,14 +102,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2eb164d1-3fe8-4ee2-98b9-6ce71fabbf32">
+    <Attribute dwd:design-time-name="0c5afddd-67b1-4d08-851a-d00a74c9365b">
       <ID>Preferred Name</ID>
       <Name>Preferred Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c451d988-2deb-42af-abbd-c01bca539808">
+        <KeyColumn dwd:design-time-name="70587e75-8890-400b-930f-2065494802af">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6150df3c-a878-4d4c-8b7c-f5e397cfaca5">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="14080215-b514-4107-a4cf-5765996fda78">
             <TableID>Cube_Salesperson-Current</TableID>
             <ColumnID>Preferred_x0020_Name</ColumnID>
           </Source>
@@ -119,14 +119,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c3471d79-a925-4d23-a128-0080375a057e">
+    <Attribute dwd:design-time-name="b0ee9a5c-ed74-4df3-9a1d-117bae891c4f">
       <ID>Last Name</ID>
       <Name>Last Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="05ac1240-05b9-4222-a4c9-259f79c45bc4">
+        <KeyColumn dwd:design-time-name="60b04363-93ae-4843-86ee-84b298f8b359">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b45c46e5-d019-4778-8dc6-da6cf52eff92">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ba28d8e4-2384-41ee-b149-93466d222f13">
             <TableID>Cube_Salesperson-Current</TableID>
             <ColumnID>Last_x0020_Name</ColumnID>
           </Source>
@@ -136,14 +136,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="3aca82b7-9d39-41a9-a8f0-63f183b9ce20">
+    <Attribute dwd:design-time-name="adfcdefe-8837-41c1-956e-214d4c1e8a46">
       <ID>First  Name</ID>
       <Name>First  Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="986dec9e-7c8d-4cb4-af7c-2634fd0fd4f9">
+        <KeyColumn dwd:design-time-name="15126106-1202-4b88-9148-faf3611eb729">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d8b633dc-c5ca-4b50-9329-0ffabe61ff5d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="49ac30dc-8454-4618-ac0e-9900e55799fc">
             <TableID>Cube_Salesperson-Current</TableID>
             <ColumnID>First_x000D__x000A_Name</ColumnID>
           </Source>

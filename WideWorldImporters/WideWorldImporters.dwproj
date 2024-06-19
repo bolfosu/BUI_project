@@ -44,8 +44,8 @@
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>ProjectView.dsv</Name>
-      <FullPath>ProjectView.dsv</FullPath>
+      <Name>Wide World Importers DW.dsv</Name>
+      <FullPath>Wide World Importers DW.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
