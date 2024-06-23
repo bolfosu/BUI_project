@@ -6,6 +6,18 @@
     <Name>WideWorldImporters.database</Name>
     <FullPath>WideWorldImporters.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Wide World Importers.cube</Name>
+      <FullPath>Wide World Importers.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Wide World Importers.partitions</Name>
+          <FullPath>Wide World Importers.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Customer.dim</Name>
@@ -34,6 +46,38 @@
     <ProjectItem>
       <Name>Date.dim</Name>
       <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>City 1.dim</Name>
+      <FullPath>City 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer 1.dim</Name>
+      <FullPath>Customer 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Date 1.dim</Name>
+      <FullPath>Date 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Invoice 1.dim</Name>
+      <FullPath>Invoice 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Salesperson 1.dim</Name>
+      <FullPath>Salesperson 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Salesperson- Current.dim</Name>
+      <FullPath>Salesperson- Current.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Item 1.dim</Name>
+      <FullPath>Item 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Item- Current.dim</Name>
+      <FullPath>Item- Current.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>kolaider\BUISQL</TargetServer>
+        <TargetServer>KOLAIDER\BUISQL</TargetServer>
         <TargetDatabase>WideWorldImportersDW</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>

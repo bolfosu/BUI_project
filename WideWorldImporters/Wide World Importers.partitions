@@ -1,0 +1,50 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="10ad036a-27cc-4232-ad29-ca091b0f3b84" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Wide World Importers</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Invoice Sales</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="a67e76d4-c45e-45a2-935f-a46b74f23bec">
+          <ID>Invoice Sales</ID>
+          <Name>Invoice Sales</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="QueryBinding" dwd:design-time-name="6a2c823e-971c-453a-b9ae-89c9d9662524">
+            <DataSourceID>Wide World Importers DW</DataSourceID>
+            <QueryDefinition>SELECT [Cube].[Invoice Sales].[WWI Invoice ID],[Cube].[Invoice Sales].[City Key],[Cube].[Invoice Sales].[WWI City ID],[Cube].[Invoice Sales].[Customer Key],[Cube].[Invoice Sales].[WWI Customer ID],[Cube].[Invoice Sales].[Bill To Customer Key],[Cube].[Invoice Sales].[WWI Bill To Customer ID],[Cube].[Invoice Sales].[Invoice Date Key],[Cube].[Invoice Sales].[Salesperson Key],[Cube].[Invoice Sales].[WWI Employee ID],[Cube].[Invoice Sales].[Invoice Total Excluding
+Tax],[Cube].[Invoice Sales].[Invoice Tax Amount],[Cube].[Invoice Sales].[Invoice Profit],[Cube].[Invoice Sales].[Invoice Total Including
+Tax],[Cube].[Invoice Sales].[Invoice Total Dry Items],[Cube].[Invoice Sales].[Invoice Total Chiller
+Items],[Cube].[Invoice Sales].[Invoice Count],[Cube].[Invoice Sales].[Sales Count]
+  FROM [Cube].[Invoice Sales]
+		WHERE [Sales].[Invoice Date Key] &lt;= '12/31/2013'</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sales</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2d46e50e-e037-4cf8-99bf-449af62dc832">
+          <ID>Sales</ID>
+          <Name>Sales</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="517a70bd-5e80-437a-892e-dd377bfe4b37">
+            <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
+            <TableID>Cube_Sales</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
